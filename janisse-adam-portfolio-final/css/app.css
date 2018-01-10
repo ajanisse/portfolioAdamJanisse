@@ -1,0 +1,403 @@
+/*Navs*/
+#footNav {
+	margin: 0;
+	list-style-type: none;
+	text-align:center;	
+	
+}
+
+#footNav li a {
+    font-family: 'Josefin Sans', sans-serif;   
+	 display:block;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+	float:right;
+
+}
+
+#footNav li a:hover {
+
+	color:#010133;
+	background-color:rgb(107, 107, 107);
+	transition: all .25s linear;
+}
+
+#mainNav {
+	margin: 0;
+	list-style-type: none;
+	text-align:center;	
+	position:sticky;
+    top:0;
+    justify-content: space-between;
+    
+}
+
+#mainNav li a {
+    font-family: 'Josefin Sans', sans-serif;   
+	 display:block;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+	float:right;
+
+}
+
+#mainNav li a:hover {
+
+	color:#010133;
+	background-color:rgb(107, 107, 107);
+	transition: all .25s linear;
+}
+header{
+    background: aliceblue;
+}
+
+/*Effects*/
+/* Fading Nav animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  /*Keyframing and animation fade*/
+  @-webkit-keyframes fade {
+    from {opacity: .1} 
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+ /*Img hover */
+ #itemImage1 {
+  filter:grayscale(0%);
+ }
+#itemImage1 :hover{
+    transition: all .25s linear;
+
+    filter:grayscale(100%);
+ } 
+
+ #itemImage2 {
+    filter:grayscale(0%);
+   }
+  #itemImage2 :hover{
+      transition: all .25s linear;
+  
+      filter:grayscale(100%);
+   } 
+   #itemImage3 {
+    filter:grayscale(0%);
+   }
+  #itemImage3 :hover{
+      transition: all .25s linear;
+  
+      filter:grayscale(100%);
+   } 
+
+   /*List Effects*/
+
+   #aboutMe li {
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+    text-align: center;
+    
+
+  }
+  
+  #aboutMe li:last-child {
+    border: none;
+  }
+  
+  #aboutMe li  {
+    text-decoration: none;
+    color:aliceblue;
+  
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;  
+
+}
+  #gitLink{
+    border-bottom-style: ridge;
+
+  }
+
+  #photoSet{
+    border-bottom-style: ridge;
+
+  }
+  #aboutMe li:hover {
+    font-size: 22px;
+    background:aliceblue;
+    color: #010133;
+  }
+ /*End Effects*/ 
+#promoBanner{
+    width:100%;
+    padding-bottom:0%;
+    background-image:url(../img/bckgrd.png);
+   
+
+}
+
+#photoPDFLink a{
+    font-size: 3em;
+    font-family: 'Josefin Sans', sans-serif;   
+    text-align: center;
+    color: aliceblue;
+}
+
+
+#gitLink{
+  color: black;
+
+}     
+#photoContain{
+    color: black;
+
+}
+
+
+body{
+    background: aliceblue;
+}
+#content{
+    background-image:url(../img/bckgrd.png);
+    
+}
+
+label {
+    font-family: 'Josefin Sans', sans-serif;   
+    color: aliceblue;
+
+}
+textarea{
+    height:200px;
+}
+#contain1{
+padding-bottom: 5%;
+}
+
+#contain2{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    }
+
+    
+#contain3{
+    padding-bottom: 2.5%;
+    }
+    
+#aboutMe{
+    padding-bottom: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-family: 'Josefin Sans', sans-serif;   
+color: aliceblue;
+border-top-style: ridge;
+border-bottom-style: ridge;
+display: block;
+margin: 0 auto;
+}
+
+
+p{
+font-family: 'Oxygen', sans-serif;
+color: aliceblue;
+}
+
+h3{
+font-family: 'Josefin Sans', sans-serif;   
+font-size: 2em;
+text-align: center;
+color: aliceblue;
+}
+
+
+
+
+#galleryArea{
+    background-image:url(../img/bckgrd.png);
+}
+
+#logoDiv{
+    width: 110%;
+    height: 300px;
+    background: rgb(58, 58, 58);
+        background-image:url(../img/small-logo.png);
+        background-repeat: no-repeat;
+
+}
+
+#logo{
+    display: block;
+    margin: 0 auto;
+}
+
+
+#clickAway{
+    display: block;
+    margin: 0 auto;
+    font-size: 1.6em;
+    text-align: center;
+} 
+
+#clickAway li a:hover{
+    color:aliceblue;
+}
+
+
+#qualifyList li {
+	margin: 0;
+	list-style-type: none;
+	text-align:center;	
+	
+}
+/*JS Specific CSS*/
+thumb { height: 90px; margin: 8px; cursor: pointer; }
+.subImagesContainer { padding: 0; }
+.lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.85);
+
+
+	z-index: 500;
+
+text-shadow: 0px 2px 3px #555;
+	color: grey;
+}
+
+
+.close-lightbox{
+	float:right;
+	margin-right: 18px;
+	margin-top: 12px;
+
+	font-size: 4em;
+	cursor: pointer;
+	}
+
+	.lightbox-img{
+	display: block;
+
+	}
+
+    #videoDiv{
+        border-top-style: ridge;
+border-bottom-style: ridge;
+    }
+/*Video Player*/
+
+#myVideo{
+ 
+   width: 100%    !important;
+    height: auto   !important;
+}
+#controls { 
+
+   width:520px; 
+   height:30px; 
+/*	background-color:#5AAA34;*/
+    color: #fff; 
+   font-family: Verdana, sans-serif;  
+   font-size: 12px;
+   margin-top:-10px;
+   
+}
+
+#controls div { 
+   float:left; 
+   height:30px; 
+   line-height:30px;
+}
+
+.player-button {
+   margin-left:10px;
+   cursor:pointer;
+}
+
+
+/*Media Queries*/
+@media screen and (min-width: 860px){
+	
+	h3{
+        font-family: 'Josefin Sans', sans-serif;   
+        font-size: 4em;
+        }
+
+}
+h4{
+    font-size: 2.1em;
+    font-family: 'Josefin Sans', sans-serif;   
+    text-align: center;
+    color: aliceblue;
+    }
+
+
+
+/*Media Queries*/
+@media screen and (min-width: 760px){
+	
+    #logoDiv{
+        background-image:url(../img/logo.png);
+        width: 100%;
+        height: 1000px;
+        visibility: visible;
+    
+    }
+    #galleryArea p{
+        font-size: 1.4em;    
+    }
+  
+    #itemText1{
+        padding-top: 100px;
+        }
+       
+        #itemText2{
+            padding-top: 100px;
+            } 
+            #itemText3{
+                padding-top: 100px;
+                }
+
+                h4{
+                    font-size: 3em;
+                    font-family: 'Josefin Sans', sans-serif;   
+                    text-align: center;
+                    color: aliceblue;
+                    }
+       
+}
+/*Media Queries*/
+@media screen and (min-width: 960px){
+
+    #gitLink{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        color: aliceblue;
+
+    }     
+    #photoContain{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        color: aliceblue;
+    }  
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Janisse</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans%7COxygen" rel="stylesheet">
+  </head>
+  <body>
+    <header class="row">
+    <!--Start Navigation-->
+        <nav>
+        <h2 class="hide">Main Navigation</h2>
+    <!--Hamburger Nav responsive code-->
+        <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
+        <button class="menu-icon float-right" type="button" data-toggle></button> 
+        </div>
+        <div id="main-menu">
+                <ul id="mainNav">
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+     </div>	       
+    </nav>
+    <!--End Navigation-->
+    </header>
+    <div id="content">
+    <div id="promoBanner">
+    <section>
+      <div id="logoDiv">         
+           <img src="img/contact-text.png" alt="promo Banner" width="500" height="300" id="logo" >
+        </div>
+    </section>
+  </div> 
+  <div id="aboutMe">
+    <h3 class="hidden">I have experience with:</h3>
+    <ul>
+        <li>PHP</li>
+        <li>SQL</li>
+        <li>AfterEffects</li>
+        <li>Photoshop</li>
+        <li>Google Analytics</li>
+        <li>Wordpress Content</li>
+        <li>Styling and CSS</li>
+      </ul>
+      <h4>Send me an email below!</h4>
+  </div>
+
+
+
+
+
+
+
+<div id="galleryArea" class="small-12 medium-8 medium-centered large-8 large-centered columns">
+    <form action="contact.php" method="post"> 
+        <!--Make sure to give each input a name attribute(name="")-->
+           <label>Name: </label><input name="name" type="text" size="21" maxlength="30" />
+           <label>Email: </label><input name="email" type="text" size="21" maxlength="30" />
+          <!-- <label for="street">Street: </label><input class="street" name="street" type="text" size="21" maxlength="30" /> -->
+           <label for="message">Message: </label><textarea name="message"></textarea>
+           <input name="submit" type="submit" value="Send" />
+        </form>
+
+
+</div>
+
+
+
+</div>
+<!--Start Footer Navigation-->
+<nav class="small-12 large-12 columns">
+    <h2 class="hide">Footer Navigation</h2>
+<!--Hamburger Nav responsive code-->
+    <div id="foot-menu">
+            <ul id="footNav">
+                <li><a href="index.html">Index</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+ </div>	       
+</nav>
+<!--End Navigation-->
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
